@@ -16,6 +16,6 @@ public class Area {
 
 
       // Imprime a saída no console. OBS: descomente a próxima linha
-      //System.out.println("A area do quadrado de lado "+ lado + " é igual a " + area);
+      System.out.println("A area do quadrado de lado "+ lado + " é igual a " + area);
    }
 }
