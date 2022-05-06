@@ -3,7 +3,9 @@ package com.trybe.acc.java.controledeacesso;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * metodo princinpal.
+ */
 public class Principal {
   static ArrayList<Integer> allPeople = new ArrayList<Integer>();
   static int quantChil = 0;
@@ -29,16 +31,13 @@ public class Principal {
     System.out.println("a partir de 50: " + quantOlde + "\n");
   }
 
-  /**
-   * menu porcentagem.
-   */
   public static void percenty() {
     float allChild = (float) (quantChil * 100) / (float) allPeople.size();
     float allAdul = (float) (quantAdul * 100) / (float) allPeople.size();
     float allOld = (float) (quantOlde * 100) / (float) allPeople.size();
-    
+
     DecimalFormat shap = new DecimalFormat("#0.00");
-    
+
     String percentChil = shap.format(allChild);
     String percentAdul = shap.format(allAdul);
     String percentOld = shap.format(allOld);
