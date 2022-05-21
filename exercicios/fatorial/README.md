@@ -123,16 +123,16 @@ public class Fatorial {
 
 ### Exemplo 1
 
-Supondo que a lâmpada esteja ligada, então a saída será:
+Supondo que o número fatorial seja 4, então a saída será:
 ```
-A lâmpada ligada: true!
+O fatorial de 4 é igual a 24
 ```
 
 ### Exemplo 2
 
-Supondo que a lâmpada esteja desligada, então a saída será:
+Supondo que o número fatorial seja 5, então a saída será:
 ```
-A lâmpada ligada: false!
+O fatorial de 5 é igual a 120
 ```
 
 ---
